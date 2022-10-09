@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 /* Desktop */
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .container {
     width: 1440px;
     background: #ffffff;
@@ -25,7 +25,7 @@
     width: 112px;
   }
   section {
-    padding-bottom: 179px;
+    margin-bottom: 172px;
   }
 
   .section-preview {
@@ -319,6 +319,7 @@
     padding: 45px;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
+    background: #ffffff;
   }
   .section-team .team-content .rectangle .rectangle-text {
     width: 700px;
@@ -487,23 +488,23 @@
   .container {
     width: 830px;
     background: #ffffff;
-    margin-left: 84px;
-    margin-right: 84px;
+    margin-left: 49px;
+    margin-right: 49px;
     margin-top: 21px;
   }
   header,
   main {
-    margin-left: 121px;
+    margin-left: 49px;
   }
   header {
-    margin-bottom: 97px;
+    margin-bottom: 56px;
   }
   header img {
-    height: 66px;
-    width: 112px;
+    width: 64.87px;
+    height: 38.23px;
   }
   section {
-    padding-bottom: 179px;
+    padding-bottom: 100px;
   }
 
   .section-preview {
@@ -512,199 +513,199 @@
   }
   .section-preview .info {
     display: flex;
-    gap: 25px;
-    margin-bottom: 30px;
+    gap: 15px;
+    margin-bottom: 8px;
   }
   .section-preview .info span {
-    width: 130px;
-    height: 32px;
+    width: 75.29px;
+    height: 18.53px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 115%;
     color: #000000;
   }
   .section-preview .info img {
-    width: 22px;
-    height: 22px;
+    width: 12.74px;
+    height: 12.16px;
   }
   .section-preview .content {
     display: flex;
     justify-content: space-between;
   }
   .section-preview .content .content-text > p {
-    width: 414px;
-    height: 62px;
+    width: 264px;
+    height: 36px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 150%;
     color: #000000;
   }
   .section-preview .content .content-text > h1 {
-    width: 628px;
-    height: 190px;
+    width: 363.72px;
+    height: 110.04px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 46px;
     line-height: 101.38%;
     color: #000000;
 
     /* margin-bottom: 20px; */
   }
   .section-preview .content .noroot {
-    width: 304px;
-    height: 356px;
+    width: 176.07px;
+    height: 206.18px;
   }
   .section-preview .blockquote {
-    width: 483.63px;
-    height: 200px;
+    width: 280.11px;
+    height: 115.83px;
     background: #1e4681;
-    border-radius: 5px;
+    border-radius: 2.89583px;
     align-self: center;
-    margin-top: 68px;
+    margin-top: 50px;
   }
   .section-preview .blockquote .quote {
-    width: 430.59px;
-    height: 113px;
+    width: 249.38px;
+    height: 65.45px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 14px;
     line-height: 130%;
     color: #ffffff;
-    margin: 20px;
+    margin: 15px;
   }
   .section-preview .blockquote .author {
-    width: 280.5px;
-    height: 45.64px;
+    width: 162.46px;
+    height: 26.43px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 130%;
     text-align: right;
     color: #ffffff;
 
-    margin-left: 180px;
+    margin-left: 108px;
   }
 
   .section-about .content {
     display: flex;
     align-items: center;
-    gap: 190px;
+    gap: 110px;
   }
   .section-about .content .cameraman {
-    width: 314px;
-    height: 315px;
+    width: 181.86px;
+    height: 182.44px;
   }
   .section-about .content .content-text h1 {
-    width: 365px;
-    height: 93px;
+    width: 211.4px;
+    height: 53.86px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 32px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
   }
   .section-about .content .content-text p {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 14px;
     line-height: 150%;
-    width: 662px;
-    height: 374px;
+    width: 383.41px;
+    height: 216.61px;
     color: #000000;
-    margin-bottom: 94px;
+    margin-bottom: 54px;
   }
   .section-about .about-footer {
     display: flex;
     align-items: center;
-    gap: 132px;
-    margin-bottom: 178px;
+    gap: 76px;
+    margin-bottom: 103px;
   }
   .section-about .about-footer .lightcar {
     display: block;
-    width: 232px;
-    height: 203px;
+    width: 134.37px;
+    height: 117.57px;
   }
   .section-about .about-footer .category > h1 {
-    width: 150px;
-    height: 39px;
+    width: 86.88px;
+    height: 22.59px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 130%;
     color: #000000;
   }
   .section-about .about-footer .category > p {
-    width: 150px;
-    height: 39px;
+    width: 108px;
+    height: 23px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 11px;
     line-height: 130%;
     color: #000000;
   }
 
   .section-class .section-title {
-    width: 667px;
-    height: 93px;
+    width: 386.3px;
+    height: 53.86px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 32px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 89px;
+    margin-bottom: 52px;
   }
   .section-class .categories {
     display: flex;
-    gap: 122px;
+    gap: 46px;
   }
   .section-class .category > h1 {
-    width: 150px;
-    height: 39px;
+    width: 86.88px;
+    height: 22.59px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 130%;
     color: #1e4681;
   }
   .section-class .category > p {
-    width: 271px;
-    height: 109px;
+    width: 172px;
+    height: 63px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 11px;
     line-height: 130%;
     color: #000000;
   }
 
   .section-learn .section-title {
-    width: 667px;
-    height: 93px;
+    width: 386.3px;
+    height: 53.86px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 32px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 21px;
+    margin-bottom: 12px;
   }
   .section-learn ul {
-    width: 662px;
-    height: 374px;
+    width: 383.41px;
+    height: 216.61px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -714,51 +715,51 @@
   }
 
   .section-program .section-title {
-    width: 905px;
-    height: 93px;
+    width: 524.15px;
+    height: 53.86px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 32px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 95px;
+    margin-bottom: 55px;
   }
   .section-program .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    gap: 37px;
+    gap: 21px;
   }
   .section-program .card {
-    width: 399px;
-    height: 328px;
+    width: 231.09px;
+    height: 189.97px;
     background: #ffffff;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
   }
   .section-program .card .card-title,
   .card-text {
-    margin-left: 20px;
-    margin-top: 11px;
+    margin-left: 11px;
+    margin-top: 6px;
   }
   .section-program .card .card-img {
-    width: 399px;
-    height: 160px;
+    width: 231.09px;
+    height: 92.67px;
   }
   .section-program .card .card-title {
-    width: 365px;
-    height: 39px;
+    width: 211.4px;
+    height: 41.12px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 17px;
     line-height: 130%;
     color: #000000;
   }
   .section-program .card .card-text {
-    width: 365px;
-    height: 63px;
+    width: 211.4px;
+    height: 36.49px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -773,7 +774,7 @@
 
   .section-team {
     width: 830px;
-    height: 780px;
+    height: 451.75px;
     background-color: #efefef;
     box-shadow: 0 0 0 100vmax #efefef;
     clip-path: inset(0 -100vmax);
@@ -781,97 +782,98 @@
     align-items: center;
   }
   .section-team .section-title {
-    width: 987px;
-    height: 93px;
+    width: 571.64px;
+    height: 53.86px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 32px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 34px;
+    margin-bottom: 20px;
   }
   .section-team .team-content .rectangle {
-    width: 791px;
-    height: 451px;
-    padding: 45px;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    width: 458.12px;
+    height: 261.2px;
+    padding: 26px;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+    background: #ffffff;
   }
   .section-team .team-content .rectangle .rectangle-text {
-    width: 700px;
-    height: 203px;
+    width: 405.42px;
+    height: 117.57px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 12px;
     line-height: 150%;
     color: #000000;
 
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   .section-team .team-content .rectangle .rectangle-author {
     display: flex;
     align-items: center;
   }
   .section-team .team-content .rectangle .rectangle-author .author-img {
-    width: 190px;
-    height: 169px;
+    width: 110.04px;
+    height: 97.88px;
   }
   .section-team .team-content .rectangle .rectangle-author .social {
-    width: 32px;
-    height: 31px;
+    width: 18.53px;
+    height: 17.95px;
   }
   .section-team .team-content .rectangle .rectangle-author .author-name {
-    width: 353px;
-    height: 59px;
+    width: 204.45px;
+    height: 34.17px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 17px;
     line-height: 101.38%;
     color: #000000;
   }
 
   .section-start-course {
     width: 830px;
-    height: 780px;
+    height: 451.75px;
     background-color: #9dc9c8;
     box-shadow: 0 0 0 100vmax #9dc9c8;
     clip-path: inset(0 -100vmax);
   }
   .section-start-course .section-title {
-    width: 908px;
-    height: 66px;
+    width: 525.88px;
+    height: 38.23px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 32px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 54px;
+    margin-bottom: 31px;
   }
   .section-start-course .course-content .price-tag {
     display: flex;
     flex-direction: column;
   }
   .section-start-course .course-content .price-tag span:first-child {
-    width: 170px;
-    height: 32px;
+    width: 98.46px;
+    height: 18.53px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 14px;
     line-height: 101.38%;
     color: #000000;
   }
   .section-start-course .course-content .price-tag span:last-child {
-    width: 481px;
-    height: 181px;
+    width: 278.58px;
+    height: 104.83px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 46px;
     line-height: 101.38%;
     color: #000000;
 
@@ -879,83 +881,83 @@
   }
   .section-start-course .course-content .categories {
     display: flex;
-    gap: 70px;
+    gap: 40px;
   }
   .section-start-course .course-content .category > h1 {
-    width: 294px;
-    height: 32px;
+    width: 170.28px;
+    height: 18.53px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 14px;
     line-height: 101.38%;
     color: #000000;
   }
   .section-start-course .course-content .category > p {
-    width: 294px;
-    height: 70px;
+    width: 170.28px;
+    height: 40.54px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 101.38%;
     color: #000000;
   }
 
   footer {
-    width: 830px;
-    height: 390px;
+    width: 834px;
+    height: 225.88px;
     background-color: #000000;
-    margin-left: 121px;
-    margin-right: 121px;
+    margin-left: 76px;
+    margin-right: 76px;
     box-shadow: 0 0 0 100vmax #000000;
     clip-path: inset(0 -100vmax);
   }
   .footer-content {
     display: flex;
-    gap: 656px;
+    gap: 380px;
   }
   .footer-content .footer-left,
   .footer-right {
-    margin-top: 50px;
+    margin-top: 29px;
   }
   .footer-content .logo {
-    width: 115px;
-    height: 68px;
+    width: 66.6px;
+    height: 39.38px;
   }
   .footer-content .social-icon {
-    margin-top: 30px;
-    margin-right: 20px;
-    width: 33px;
-    height: 33px;
+    margin-top: 17px;
+    margin-right: 11px;
+    width: 19.11px;
+    height: 19.11px;
   }
   .footer-content .footer-right .contact {
-    margin-bottom: 25px;
+    margin-bottom: 2px;
   }
   .footer-content .footer-right .contact .contact-icon {
-    margin-right: 20px;
-    width: 27px;
-    height: 27px;
+    margin-right: 12px;
+    width: 15.64px;
+    height: 15.64px;
   }
   .footer-content .footer-right .contact .contact-text {
-    width: 269px;
-    height: 40px;
+    width: 155.8px;
+    height: 23.17px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 14px;
     line-height: 101.38%;
     color: #ffffff;
   }
   .copyright {
     position: relative;
-    bottom: -100px;
-    width: 230px;
-    height: 40px;
+    bottom: -80px;
+    width: 133.21px;
+    height: 23.17px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 101.38%;
     color: #ffffff;
   }
@@ -965,23 +967,23 @@
   .container {
     width: 375px;
     background: #ffffff;
-    margin-left: 84px;
-    margin-right: 84px;
-    margin-top: 21px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 36px;
   }
   header,
   main {
-    margin-left: 121px;
+    margin-left: 35px;
   }
   header {
-    margin-bottom: 97px;
+    margin-bottom: 45px;
   }
   header img {
-    height: 66px;
-    width: 112px;
+    width: 52.19px;
+    height: 30.75px;
   }
   section {
-    padding-bottom: 179px;
+    margin-bottom: 76px;
   }
 
   .section-preview {
@@ -990,257 +992,261 @@
   }
   .section-preview .info {
     display: flex;
-    gap: 25px;
-    margin-bottom: 30px;
+    gap: 12px;
+    margin-bottom: 8px;
   }
   .section-preview .info span {
-    width: 130px;
-    height: 32px;
+    width: 60.58px;
+    height: 14.91px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     line-height: 115%;
     color: #000000;
   }
   .section-preview .info img {
-    width: 22px;
-    height: 22px;
+    width: 10.25px;
+    height: 9.79px;
   }
   .section-preview .content {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    flex-direction: column;
   }
   .section-preview .content .content-text > p {
-    width: 414px;
-    height: 62px;
+    width: 212.4px;
+    height: 28.96px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     line-height: 150%;
     color: #000000;
   }
   .section-preview .content .content-text > h1 {
-    width: 628px;
-    height: 190px;
+    width: 292.63px;
+    height: 88.53px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 37px;
     line-height: 101.38%;
     color: #000000;
 
     /* margin-bottom: 20px; */
   }
   .section-preview .content .noroot {
-    width: 304px;
-    height: 356px;
+    width: 141.66px;
+    height: 165.89px;
   }
   .section-preview .blockquote {
-    width: 483.63px;
-    height: 200px;
+    width: 225.36px;
+    height: 93.19px;
     background: #1e4681;
-    border-radius: 5px;
+    border-radius: 2.32986px;
     align-self: center;
-    margin-top: 68px;
+    margin-top: 48px;
   }
   .section-preview .blockquote .quote {
-    width: 430.59px;
-    height: 113px;
+    width: 200.64px;
+    height: 52.65px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 11px;
     line-height: 130%;
     color: #ffffff;
-    margin: 20px;
+    margin: 12px;
   }
   .section-preview .blockquote .author {
-    width: 280.5px;
-    height: 45.64px;
+    width: 130.7px;
+    height: 21.27px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     line-height: 130%;
     text-align: right;
     color: #ffffff;
 
-    margin-left: 180px;
+    margin-left: 87px;
   }
 
   .section-about .content {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 190px;
+    gap: 56px;
   }
   .section-about .content .cameraman {
-    width: 314px;
-    height: 315px;
+    width: 146.32px;
+    height: 146.78px;
+    margin-bottom: 59px;
   }
   .section-about .content .content-text h1 {
-    width: 365px;
-    height: 93px;
+    width: 170.08px;
+    height: 43.34px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 26px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
   }
   .section-about .content .content-text p {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 12px;
     line-height: 150%;
-    width: 662px;
-    height: 374px;
+    width: 308.47px;
+    height: 174.27px;
     color: #000000;
-    margin-bottom: 94px;
+    /* margin-bottom: 94px; */
   }
   .section-about .about-footer {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 132px;
-    margin-bottom: 178px;
+    margin-bottom: 76px;
   }
   .section-about .about-footer .lightcar {
-    display: block;
+    display: none;
     width: 232px;
     height: 203px;
   }
   .section-about .about-footer .category > h1 {
-    width: 150px;
-    height: 39px;
+    width: 69.9px;
+    height: 18.17px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 12px;
     line-height: 130%;
     color: #000000;
   }
   .section-about .about-footer .category > p {
-    width: 150px;
-    height: 39px;
+    width: 86.89px;
+    height: 18.5px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 130%;
     color: #000000;
   }
 
   .section-class .section-title {
-    width: 667px;
-    height: 93px;
+    width: 310.8px;
+    height: 43.34px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 26px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 89px;
+    margin-bottom: 16px;
   }
   .section-class .categories {
     display: flex;
-    gap: 122px;
+    flex-direction: column;
+    gap: 10px;
   }
   .section-class .category > h1 {
-    width: 150px;
-    height: 39px;
+    width: 99.72px;
+    height: 18.17px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 12px;
     line-height: 130%;
     color: #1e4681;
   }
   .section-class .category > p {
-    width: 271px;
-    height: 109px;
+    width: 165px;
+    height: 51px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 130%;
     color: #000000;
   }
 
   .section-learn .section-title {
-    width: 667px;
-    height: 93px;
+    width: 310.8px;
+    height: 43.34px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 26px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 21px;
+    margin-bottom: 9px;
   }
   .section-learn ul {
-    width: 662px;
-    height: 374px;
+    width: 299px;
+    height: 174px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 12px;
     line-height: 150%;
     color: #000000;
   }
 
   .section-program .section-title {
-    width: 905px;
-    height: 93px;
+    width: 421.7px;
+    height: 43.34px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 26px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 95px;
+    margin-bottom: 35px;
   }
   .section-program .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
-    gap: 37px;
+    gap: 24px;
   }
   .section-program .card {
-    width: 399px;
-    height: 328px;
+    width: 185.92px;
+    height: 152.84px;
     background: #ffffff;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
   }
   .section-program .card .card-title,
   .card-text {
-    margin-left: 20px;
-    margin-top: 11px;
+    margin-left: 9px;
+    margin-top: 5px;
   }
   .section-program .card .card-img {
-    width: 399px;
-    height: 160px;
+    width: 185.92px;
+    height: 74.56px;
   }
   .section-program .card .card-title {
-    width: 365px;
-    height: 39px;
+    width: 170.08px;
+    height: 33.08px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 14px;
     line-height: 130%;
     color: #000000;
   }
   .section-program .card .card-text {
-    width: 365px;
-    height: 63px;
+    width: 170.08px;
+    height: 29.36px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 12px;
     line-height: 130%;
     color: #000000;
   }
@@ -1251,7 +1257,7 @@
 
   .section-team {
     width: 375px;
-    height: 780px;
+    height: 423px;
     background-color: #efefef;
     box-shadow: 0 0 0 100vmax #efefef;
     clip-path: inset(0 -100vmax);
@@ -1259,97 +1265,98 @@
     align-items: center;
   }
   .section-team .section-title {
-    width: 987px;
-    height: 93px;
+    width: 257px;
+    height: 69px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 26px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 34px;
+    margin-bottom: 11px;
   }
   .section-team .team-content .rectangle {
-    width: 791px;
-    height: 451px;
-    padding: 45px;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
+    width: 308px;
+    height: 248px;
+    padding: 21px;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    background: #ffffff;
   }
   .section-team .team-content .rectangle .rectangle-text {
-    width: 700px;
-    height: 203px;
+    width: 266px;
+    height: 111.01px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 10px;
     line-height: 150%;
     color: #000000;
 
-    margin-bottom: 10px;
+    margin-bottom: 21px;
   }
   .section-team .team-content .rectangle .rectangle-author {
     display: flex;
     align-items: center;
   }
   .section-team .team-content .rectangle .rectangle-author .author-img {
-    width: 190px;
-    height: 169px;
+    width: 80px;
+    height: 84px;
   }
   .section-team .team-content .rectangle .rectangle-author .social {
-    width: 32px;
-    height: 31px;
+    width: 14.91px;
+    height: 17.2px;
   }
   .section-team .team-content .rectangle .rectangle-author .author-name {
-    width: 353px;
-    height: 59px;
+    width: 164.49px;
+    height: 32.73px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 14px;
     line-height: 101.38%;
     color: #000000;
   }
 
   .section-start-course {
-    width: 375px;
-    height: 780px;
+    width: 671px;
+    height: 363.46px;
     background-color: #9dc9c8;
     box-shadow: 0 0 0 100vmax #9dc9c8;
     clip-path: inset(0 -100vmax);
   }
   .section-start-course .section-title {
-    width: 908px;
-    height: 66px;
+    width: 224px;
+    height: 63px;
     font-family: "Roboto Slab";
     font-style: normal;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 26px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 54px;
+    margin-bottom: 22px;
   }
   .section-start-course .course-content .price-tag {
     display: flex;
     flex-direction: column;
   }
   .section-start-course .course-content .price-tag span:first-child {
-    width: 170px;
-    height: 32px;
+    width: 79.22px;
+    height: 14.91px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 12px;
     line-height: 101.38%;
     color: #000000;
   }
   .section-start-course .course-content .price-tag span:last-child {
-    width: 481px;
-    height: 181px;
+    width: 224.13px;
+    height: 84.34px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 80px;
+    font-size: 37px;
     line-height: 101.38%;
     color: #000000;
 
@@ -1357,83 +1364,83 @@
   }
   .section-start-course .course-content .categories {
     display: flex;
-    gap: 70px;
+    gap: 31px;
   }
   .section-start-course .course-content .category > h1 {
-    width: 294px;
-    height: 32px;
+    width: 137px;
+    height: 14.91px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 12px;
     line-height: 101.38%;
     color: #000000;
   }
   .section-start-course .course-content .category > p {
-    width: 294px;
-    height: 70px;
+    width: 140px;
+    height: 38px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 101.38%;
     color: #000000;
   }
 
   footer {
     width: 375px;
-    height: 390px;
+    height: 251px;
     background-color: #000000;
-    margin-left: 121px;
-    margin-right: 121px;
+    margin-left: 57px;
+    margin-right: 57px;
     box-shadow: 0 0 0 100vmax #000000;
     clip-path: inset(0 -100vmax);
   }
   .footer-content {
     display: flex;
-    gap: 656px;
+    flex-direction: column;
+    gap: 47px;
   }
-  .footer-content .footer-left,
-  .footer-right {
-    margin-top: 50px;
+  .footer-content {
+    margin-top: 23px;
   }
   .footer-content .logo {
-    width: 115px;
-    height: 68px;
+    width: 53.59px;
+    height: 31.69px;
   }
   .footer-content .social-icon {
-    margin-top: 30px;
-    margin-right: 20px;
-    width: 33px;
-    height: 33px;
+    margin-top: 13px;
+    margin-right: 8px;
+    width: 15.38px;
+    height: 15.38px;
   }
   .footer-content .footer-right .contact {
-    margin-bottom: 25px;
+    margin-bottom: 2px;
   }
   .footer-content .footer-right .contact .contact-icon {
-    margin-right: 20px;
-    width: 27px;
-    height: 27px;
+    margin-right: 10px;
+    width: 12.58px;
+    height: 12.58px;
   }
   .footer-content .footer-right .contact .contact-text {
-    width: 269px;
-    height: 40px;
+    width: 125.35px;
+    height: 18.64px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 12px;
     line-height: 101.38%;
     color: #ffffff;
   }
   .copyright {
     position: relative;
-    bottom: -100px;
-    width: 230px;
-    height: 40px;
+    bottom: -50px;
+    width: 141px;
+    height: 19px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 10px;
     line-height: 101.38%;
     color: #ffffff;
   }
