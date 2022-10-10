@@ -9,8 +9,8 @@
   .container {
     width: 1440px;
     background: #ffffff;
-    margin-left: 84px;
-    margin-right: 84px;
+    /* margin-left: 84px;
+    margin-right: 84px; */
     margin-top: 21px;
   }
   header,
@@ -488,8 +488,8 @@
   .container {
     width: 830px;
     background: #ffffff;
-    margin-left: 49px;
-    margin-right: 49px;
+    margin-left: 24px;
+    margin-right: 24px;
     margin-top: 21px;
   }
   header,
@@ -967,8 +967,8 @@
   .container {
     width: 375px;
     background: #ffffff;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 36px;
   }
   header,
