@@ -35,8 +35,9 @@
   }
   .section-preview .info {
     display: flex;
-    gap: 43px;
-    margin-bottom: 36px;
+    gap: 42px;
+    margin-bottom: 30px;
+    margin-top: -3px;
   }
   .section-preview .info span {
     width: 130px;
@@ -47,6 +48,7 @@
     font-size: 20px;
     line-height: 115%;
     color: #000000;
+    margin-left: 4px;
   }
   .section-preview .info img {
     width: 22px;
@@ -77,12 +79,14 @@
     font-size: 80px;
     line-height: 101.38%;
     color: #000000;
+    margin-top: 7px;
 
     /* margin-bottom: 20px; */
   }
   .section-preview .content .noroot {
     width: 304px;
     height: 356px;
+    margin-right: 251px;
   }
   .section-preview .blockquote {
     width: 483.63px;
@@ -91,6 +95,7 @@
     border-radius: 5px;
     align-self: center;
     margin-top: 68px;
+    margin-right: 258px;
   }
   .section-preview .blockquote .quote {
     width: 430.59px;
@@ -113,8 +118,7 @@
     line-height: 130%;
     text-align: right;
     color: #ffffff;
-
-    margin-left: 180px;
+    margin-left: 185px;
   }
 
   .section-about .content {
@@ -159,7 +163,7 @@
     width: 232px;
     height: 203px;
   }
-  .section-about .about-footer .category > h1 {
+  .section-about .about-footer .category-a .category-b .category-c > h1 {
     width: 150px;
     height: 39px;
     font-family: "Roboto";
@@ -169,7 +173,7 @@
     line-height: 130%;
     color: #000000;
   }
-  .section-about .about-footer .category > p {
+  .section-about .about-footer .category-a .category-b .category-c > p {
     width: 150px;
     height: 39px;
     font-family: "Roboto";
@@ -252,13 +256,14 @@
     font-size: 55px;
     line-height: 101.38%;
     color: #000000;
-    margin-bottom: 95px;
+    margin-bottom: 162px;
   }
   .section-program .cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    gap: 45px;
+    gap: 37px;
+    margin-right: 119px;
   }
   .section-program .card {
     width: 399px;
