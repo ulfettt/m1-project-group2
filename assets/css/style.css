@@ -15,22 +15,23 @@
   }
   header,
   main {
-    margin-left: 121px;
+    margin-left: 205px;
   }
   header {
-    margin-bottom: 97px;
+    margin-bottom: 90px;
   }
   header img {
     height: 66px;
     width: 112px;
   }
-  section {
+  /* section {
     margin-bottom: 172px;
-  }
+  } */
 
   .section-preview {
     display: flex;
     flex-direction: column;
+    margin-bottom: 172px;
   }
   .section-preview .info {
     display: flex;
@@ -52,10 +53,12 @@
   .section-preview .info img {
     width: 22px;
     height: 22px;
+    margin-right: 2px;
   }
   .section-preview .content {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 134px;
   }
   .section-preview .content .content-text > p {
     width: 414px;
@@ -181,6 +184,9 @@
     color: #000000;
   }
 
+  .section-class {
+    margin-bottom: 178px;
+  }
   .section-class .section-title {
     width: 667px;
     height: 93px;
@@ -194,10 +200,10 @@
   }
   .section-class .categories {
     display: flex;
-    gap: 122px;
+    gap: 77px;
   }
   .section-class .category > h1 {
-    width: 150px;
+    width: 200px;
     height: 39px;
     font-family: "Roboto";
     font-style: normal;
@@ -238,7 +244,9 @@
     line-height: 150%;
     color: #000000;
   }
-
+  .section-program {
+    margin-top: 245px;
+  }
   .section-program .section-title {
     width: 905px;
     height: 93px;
@@ -306,6 +314,7 @@
     clip-path: inset(0 -100vmax);
     display: flex;
     align-items: center;
+    margin-top: 110px;
   }
   .section-team .section-title {
     width: 987px;
@@ -378,6 +387,7 @@
     line-height: 101.38%;
     color: #000000;
     margin-bottom: 54px;
+    margin-top: 50px;
   }
   .section-start-course .course-content .price-tag {
     display: flex;
